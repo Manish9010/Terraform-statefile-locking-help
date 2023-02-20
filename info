@@ -1,5 +1,5 @@
 Help: youtube: Edureka : What is Terraform State file 
->> Locking of statefile, Using S3 and DynamoDb.  >> from multiple modification of AWS Infra from multiple user's simultaneously.
+>> Locking of statefile, Using S3 and DynamoDb.  >> from multiple modification of AWS Infra from multiple user's simultaneously can be avoided 
 
 >> State file will be locked if user1 performs any changed and it will be released once the modification is done by user1
 later part only user2 can acquire statefile and perform modification.
